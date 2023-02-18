@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+.section {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  justify-items: start;
+}
+
+button {
+  padding: 5px 10px;
+}
